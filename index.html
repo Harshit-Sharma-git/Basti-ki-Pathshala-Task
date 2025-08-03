@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helping Hands NGO</title>
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Helping <span>Hands</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#volunteer">Volunteer</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Together We Can Make a Difference</h1>
+                <p>Join our mission to create positive change in communities around the world. Your time and skills can help transform lives.</p>
+                <a href="#volunteer" class="btn btn-accent">Become a Volunteer</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+                <p>Learn more about our organization and the work we do to make the world a better place.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Mission</h3>
+                    <p>Helping Hands NGO is dedicated to improving lives through education, healthcare, and community development initiatives. Founded in 2010, we've impacted over 50,000 lives across 3 continents.</p>
+                    <p>We believe in sustainable solutions that empower communities to thrive independently. Our approach focuses on local leadership, cultural sensitivity, and measurable outcomes.</p>
+                    <p>Our team consists of passionate professionals from diverse backgrounds united by a common goal: to create meaningful, lasting change.</p>
+                    <a href="#volunteer" class="btn">Join Our Team</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://static.vecteezy.com/system/resources/previews/007/112/819/non_2x/silhouette-of-giving-a-helping-hand-hope-and-support-each-other-over-sunset-background-photo.jpg" alt="Volunteers helping community">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer Form Section -->
+    <section class="volunteer" id="volunteer">
+        <div class="container">
+            <div class="section-title">
+                <h2>Volunteer With Us</h2>
+                <p>Fill out the form below to join our team of dedicated volunteers making a difference.</p>
+            </div>
+            <div class="form-container">
+                <div id="success-message" class="success-message">
+                    Thank you for your submission! We'll contact you soon.
+                </div>
+                <form id="volunteer-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age" min="16" max="99">
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" name="location">
+                    </div>
+                    <div class="form-group">
+                        <label for="skills">Skills/Interests</label>
+                        <select id="skills" name="skills" multiple>
+                            <option value="teaching">Teaching/Education</option>
+                            <option value="medical">Medical/Healthcare</option>
+                            <option value="construction">Construction</option>
+                            <option value="art">Art/Creative</option>
+                            <option value="tech">Technology</option>
+                            <option value="language">Language Translation</option>
+                            <option value="fundraising">Fundraising</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="availability">Availability</label>
+                        <select id="availability" name="availability">
+                            <option value="weekdays">Weekdays</option>
+                            <option value="weekends">Weekends</option>
+                            <option value="both">Both</option>
+                            <option value="flexible">Flexible</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Why do you want to volunteer with us?</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn submit-btn">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Helping Hands</h3>
+                    <p>We are a non-profit organization dedicated to creating positive change through community empowerment and sustainable development.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#volunteer">Volunteer</a>
+                    <a href="#">Donate</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>123 Charity Street, Helping City</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: info@helpinghands.org</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Helping Hands NGO. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
